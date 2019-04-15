@@ -21,7 +21,7 @@
 
 工具提供可视化界面编辑模版，自定义模版。
 ```
-{{packageName}}包名
+<pre>{{packageName}}</pre>包名
 {{author}}开发者
 {{day}}当期日期
 {{className}}类名

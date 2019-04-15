@@ -36,8 +36,8 @@
 {{columnComment列备注
 {{columnName}}列名
 {{oldColumnName}}原列名
-{{if value}} ... {{endif}}条件语句
-{{for column in columns}}{{column.columnName}}{{endfor}}循环语句
+{%if value%} ... {%endif%}条件语句
+{%for column in columns%}{{column.columnName}}{%endfor%}循环语句
 ```
 
 ### 部分界面

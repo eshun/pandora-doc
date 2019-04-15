@@ -26,11 +26,11 @@
 {{day}}当期日期
 {{className}}类名
 
-{{tableName}}表名</span>
-{{tableInfo}}表</span>
-{{pri}}表第一个主键</span>
+{{tableName}}表名
+{{tableInfo}}表
+{{pri}}表第一个主键
 
-{{columns}}所有列</span>
+{{columns}}所有列
 {{columnKey}}是否主键
 {{isNull}}是否可为空
 {{columnComment列备注

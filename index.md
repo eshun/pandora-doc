@@ -6,13 +6,15 @@
 
 ### 功能
 
-[x]支持mysql库,其他数据库开发中
-[x]支持生成JPA/JdbcTemplate/Mybatis代码
-[x] 支持生成vue element ui
-[x] 支持lombok
-[x] 支持swagger api
-[x] 支持模版编辑
-[] 一对多，多对多
+- [x] 支持mysql库,其他数据库开发中
+- [x] 支持生成JPA/JdbcTemplate/Mybatis代码
+- [x] 支持生成vue element ui
+- [x] 支持lombok
+- [x] 支持swagger api
+- [x] 支持模版编辑
+- [ ] 一对多，多对多
+
+
 
 
 ### 模版编辑

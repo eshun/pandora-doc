@@ -1,37 +1,46 @@
-## Welcome to GitHub Pages
+## 欢迎使用代码生成工具
 
-You can use the [editor on GitHub](https://github.com/eshun/pandora-doc/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+一款从数据库逆向生成代码工具，开发该工具的初衷概念模型->逻辑模型->物理模型->源码，以释放双手为目的，各大模板也在陆续补充和优化。如有发现bug欢迎提交issue,谢谢！
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+支持win，macos欢迎[下载](https://github.com/eshun/pandora-doc/releases)
 
-### Markdown
+### 功能
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+[x] 支持mysql库,其他数据库开发中
+[x] 支持生成JPA/JdbcTemplate/Mybatis代码
+[x] 支持生成vue element ui
+[x] 支持lombok
+[x] 支持swagger api
+[x] 支持模版编辑
+[] 一对多，多对多
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+### 模版编辑
 
-- Bulleted
-- List
+工具提供可视化界面编辑模版，自定义模版。
+```
+{{packageName}}包名
+{{author}}开发者
+{{day}}当期日期
+{{className}}类名
 
-1. Numbered
-2. List
+{{tableName}}表名</span>
+{{tableInfo}}表</span>
+{{pri}}表第一个主键</span>
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+{{columns}}所有列</span>
+{{columnKey}}是否主键
+{{isNull}}是否可为空
+{{columnComment列备注
+{{columnName}}列名
+{{oldColumnName}}原列名
+{{if value}} ... {{endif}}条件语句
+{{for column in columns}}{{column.columnName}}{{endfor}}循环语句
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### 部分界面
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/eshun/pandora-doc/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+[head](images/1.png)
+[head](images/2.png)
+[head](images/3.png)
+[head](images/4.png)

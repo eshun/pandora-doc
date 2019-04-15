@@ -40,7 +40,7 @@
 
 ### 部分界面
 
-[head](images/1.png)
-[head](images/2.png)
-[head](images/3.png)
-[head](images/4.png)
+[head]:images/1.png
+[head]:images/2.png
+[head]:images/3.png
+[head]:(images/4.png

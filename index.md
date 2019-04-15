@@ -6,8 +6,8 @@
 
 ### 功能
 
-[x] 支持mysql库,其他数据库开发中
-[x] 支持生成JPA/JdbcTemplate/Mybatis代码
+[x]支持mysql库,其他数据库开发中
+[x]支持生成JPA/JdbcTemplate/Mybatis代码
 [x] 支持生成vue element ui
 [x] 支持lombok
 [x] 支持swagger api
@@ -40,7 +40,10 @@
 
 ### 部分界面
 
-[head]:images/1.png
-[head]:images/2.png
-[head]:images/3.png
-[head]:(images/4.png
+![head](images/1.jpeg)
+
+![head](images/2.png)
+
+![head](images/3.png)
+
+![head](images/4.png)

@@ -1,6 +1,6 @@
 ## 欢迎使用代码生成工具
 
-一款从数据库逆向生成代码工具，开发该工具的初衷概念模型->逻辑模型->物理模型->源码，以释放双手为目的，各大模板也在陆续补充和优化。如有发现bug欢迎提交issue,谢谢！
+一款从数据库逆向生成代码工具，开发该工具的初衷概念模型->逻辑模型->物理模型->生成代码，以释放双手为目的，各大模板也在陆续补充和优化。如有发现bug、建议和建议欢迎提交issue,谢谢！
 
 支持win，macos欢迎[下载](https://github.com/eshun/pandora-doc/releases)
 
@@ -12,9 +12,7 @@
 - [x] 支持lombok
 - [x] 支持swagger api
 - [x] 支持模版编辑
-+ [ ] 一对多，多对多
-
-
+- [ ] 一对多，多对多
 
 
 ### 模版编辑
@@ -31,11 +29,11 @@
 {% raw %}{{pri}}{% endraw %}表第一个主键
 
 {% raw %}{{columns}}{% endraw %}所有列
+{% raw %}{{columnName}}{% endraw %}列名
+{% raw %}{{oldColumnName}}{% endraw %}原列名
 {% raw %}{{columnKey}}{% endraw %}是否主键
 {% raw %}{{isNull}}{% endraw %}是否可为空
 {% raw %}{{columnComment{% endraw %}列备注
-{% raw %}{{columnName}}{% endraw %}列名
-{% raw %}{{oldColumnName}}{% endraw %}原列名
 {% raw %}{%if value%} ... {%endif%}{% endraw %}条件语句
 {% raw %}{%for column in columns%}{{column.columnName}}{%endfor%}{% endraw %}循环语句
 ```

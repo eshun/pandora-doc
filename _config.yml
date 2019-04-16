@@ -2,11 +2,8 @@ theme: jekyll-theme-cayman
 lang: zh-cn
 
 title: 代码生成工具
-description: 一款从数据库逆向生成代码工具，开发该工具的初衷概念模型->逻辑模型->物理模型->生成代码，以释放双手为目的，各大模板也在陆续补充和优化。如有发现bug、建议和建议欢迎提交issue,谢谢！
+description:
 show_downloads: false
 
 github:
   is_project_page: false
-
-
-seo: <style>ul{margin:0;padding:0;} ul>li{list-style: none;}</style>

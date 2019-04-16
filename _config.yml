@@ -8,7 +8,7 @@ show_downloads: false
 github:
   is_project_page: false
 
-baseurl: http://t.cys2.com
+baseurl:
 down:
   win_url:
   macos_url:

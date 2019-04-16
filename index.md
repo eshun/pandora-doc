@@ -12,7 +12,7 @@
 - [x] 支持lombok
 - [x] 支持swagger api
 - [x] 支持模版编辑
-- [ ] 一对多，多对多
++ [ ] 一对多，多对多
 
 
 
@@ -22,22 +22,22 @@
 工具提供可视化界面编辑模版，自定义模版。
 ```
 {% raw %}{{packageName}}{% endraw %}包名
-{{author}}开发者
-{{day}}当期日期
-{{className}}类名
+{% raw %}{{author}}{% endraw %}开发者
+{% raw %}{{day}}{% endraw %}当期日期
+{% raw %}{{className}}{% endraw %}类名
 
-{{tableName}}表名
-{{tableInfo}}表
-{{pri}}表第一个主键
+{% raw %}{{tableName}}{% endraw %}表名
+{% raw %}{{tableInfo}}{% endraw %}表
+{% raw %}{{pri}}{% endraw %}表第一个主键
 
-{{columns}}所有列
-{{columnKey}}是否主键
-{{isNull}}是否可为空
-{{columnComment列备注
-{{columnName}}列名
-{{oldColumnName}}原列名
-{%if value%} ... {%endif%}条件语句
-{%for column in columns%}{{column.columnName}}{%endfor%}循环语句
+{% raw %}{{columns}}{% endraw %}所有列
+{% raw %}{{columnKey}}{% endraw %}是否主键
+{% raw %}{{isNull}}{% endraw %}是否可为空
+{% raw %}{{columnComment{% endraw %}列备注
+{% raw %}{{columnName}}{% endraw %}列名
+{% raw %}{{oldColumnName}}{% endraw %}原列名
+{% raw %}{%if value%} ... {%endif%}{% endraw %}条件语句
+{% raw %}{%for column in columns%}{{column.columnName}}{%endfor%}{% endraw %}循环语句
 ```
 
 ### 部分界面

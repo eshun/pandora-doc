@@ -38,10 +38,10 @@
 
 ### 部分界面
 
-![head](images/1.jpeg)
+![head](images/1.jpg)
 
 ![head](images/2.png)
 
-![head](images/3.png)
+![head](images/3.jpg)
 
 ![head](images/4.png)

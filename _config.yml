@@ -4,11 +4,10 @@ lang:               zh-cn
 title:              代码生成工具
 description:        http://t.cys2.com
 show_downloads:     false
+google_analytics:   UA-138519481-1
 
 github:
   is_project_page:  false
 
 baseurl:
-down:
-  win_url:          http://t.cn/EXp5xLi
-  macos_url:        http://t.cn/EXpq1DS
+

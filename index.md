@@ -26,6 +26,10 @@
 {% raw %}{{tableInfo}}{% endraw %}表
 {% raw %}{{pri}}{% endraw %}表第一个主键
 
+{% raw %}{{oldReferencedTableName}}{% endraw %}外键关联表
+{% raw %}{{referencedTableName}}{% endraw %}外键关联表
+
+
 {% raw %}{{columns}}{% endraw %}所有列
 {% raw %}{{columnName}}{% endraw %}列名
 {% raw %}{{oldColumnName}}{% endraw %}原列名
@@ -38,10 +42,12 @@
 
 ### 部分界面
 
-![head](images/1.jpg)
+![head](images/1.png)
 
 ![head](images/2.png)
 
-![head](images/3.jpg)
+![head](images/3.png)
 
 ![head](images/4.png)
+
+![head](images/5.png)
